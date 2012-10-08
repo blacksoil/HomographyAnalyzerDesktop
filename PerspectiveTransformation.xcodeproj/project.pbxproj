@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B93167C1566949600978164 /* PerspectiveTransformation.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B93167B1566949600978164 /* PerspectiveTransformation.1 */; };
+		0B93168A156694FD00978164 /* CVUtilities.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0B931687156694FD00978164 /* CVUtilities.cc */; };
+		0B93168B156694FD00978164 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B931689156694FD00978164 /* main.cpp */; };
+		0B9316911566956D00978164 /* HomAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B93168D1566956D00978164 /* HomAdapter.cpp */; };
+		0B9316921566956D00978164 /* ImageDrawingTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B93168F1566956D00978164 /* ImageDrawingTools.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B9316731566949600978164 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0B93167C1566949600978164 /* PerspectiveTransformation.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B9316751566949600978164 /* PerspectiveTransformation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerspectiveTransformation; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B93167B1566949600978164 /* PerspectiveTransformation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PerspectiveTransformation.1; sourceTree = "<group>"; };
+		0B931687156694FD00978164 /* CVUtilities.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVUtilities.cc; path = ../CVUtilities.cc; sourceTree = "<group>"; };
+		0B931688156694FD00978164 /* CVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVUtilities.h; path = ../CVUtilities.h; sourceTree = "<group>"; };
+		0B931689156694FD00978164 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		0B93168D1566956D00978164 /* HomAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HomAdapter.cpp; sourceTree = "<group>"; };
+		0B93168E1566956D00978164 /* HomAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomAdapter.h; sourceTree = "<group>"; };
+		0B93168F1566956D00978164 /* ImageDrawingTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageDrawingTools.cpp; sourceTree = "<group>"; };
+		0B9316901566956D00978164 /* ImageDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDrawingTools.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B9316721566949600978164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B93166A1566949600978164 = {
+			isa = PBXGroup;
+			children = (
+				0B9316781566949600978164 /* PerspectiveTransformation */,
+				0B9316761566949600978164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B9316761566949600978164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B9316751566949600978164 /* PerspectiveTransformation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B9316781566949600978164 /* PerspectiveTransformation */ = {
+			isa = PBXGroup;
+			children = (
+				0B931687156694FD00978164 /* CVUtilities.cc */,
+				0B931688156694FD00978164 /* CVUtilities.h */,
+				0B93168D1566956D00978164 /* HomAdapter.cpp */,
+				0B93168E1566956D00978164 /* HomAdapter.h */,
+				0B93168F1566956D00978164 /* ImageDrawingTools.cpp */,
+				0B9316901566956D00978164 /* ImageDrawingTools.h */,
+				0B931689156694FD00978164 /* main.cpp */,
+				0B93167B1566949600978164 /* PerspectiveTransformation.1 */,
+			);
+			path = PerspectiveTransformation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B9316741566949600978164 /* PerspectiveTransformation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B93167F1566949600978164 /* Build configuration list for PBXNativeTarget "PerspectiveTransformation" */;
+			buildPhases = (
+				0B9316711566949600978164 /* Sources */,
+				0B9316721566949600978164 /* Frameworks */,
+				0B9316731566949600978164 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerspectiveTransformation;
+			productName = PerspectiveTransformation;
+			productReference = 0B9316751566949600978164 /* PerspectiveTransformation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B93166C1566949600978164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University Of Washington";
+			};
+			buildConfigurationList = 0B93166F1566949600978164 /* Build configuration list for PBXProject "PerspectiveTransformation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B93166A1566949600978164;
+			productRefGroup = 0B9316761566949600978164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B9316741566949600978164 /* PerspectiveTransformation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B9316711566949600978164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B93168A156694FD00978164 /* CVUtilities.cc in Sources */,
+				0B93168B156694FD00978164 /* main.cpp in Sources */,
+				0B9316911566956D00978164 /* HomAdapter.cpp in Sources */,
+				0B9316921566956D00978164 /* ImageDrawingTools.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B93167D1566949600978164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B93167E1566949600978164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B9316801566949600978164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "/opt/local/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-I/opt/local/include/opencv2",
+					"-lm",
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B9316811566949600978164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "/opt/local/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-I/opt/local/include/opencv2",
+					"-lm",
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B93166F1566949600978164 /* Build configuration list for PBXProject "PerspectiveTransformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B93167D1566949600978164 /* Debug */,
+				0B93167E1566949600978164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B93167F1566949600978164 /* Build configuration list for PBXNativeTarget "PerspectiveTransformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9316801566949600978164 /* Debug */,
+				0B9316811566949600978164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B93166C1566949600978164 /* Project object */;
+}
