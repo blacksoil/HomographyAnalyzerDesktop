@@ -13,6 +13,7 @@
 #include <cmath>
 #include <opencv2/opencv.hpp>
 #include "ImageDrawingTools.h"
+#include <stdio.h>
 
 #define WHITE CV_RGB(250,250,250)
 
